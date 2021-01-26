@@ -1,1 +1,5 @@
 cat: single.fastq: No such file or directory
+report file /projects/EBP/CBC/pyxicephalus/Analysis/AnalysisDataOutputDir/03_Centrifuge/18JUL_1539_liver/centrifuge_out/18JUL_1539_liver_centrifuge_report.tsv
+Number of iterations in EM algorithm: 0
+Probability diff. (P - P_prev) in the last iteration: 0
+Calculating abundance: 00:00:00
