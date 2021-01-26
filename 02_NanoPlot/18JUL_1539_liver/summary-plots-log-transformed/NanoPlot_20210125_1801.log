@@ -1,0 +1,15 @@
+2021-01-25 18:01:43,362 NanoPlot 1.21.0 started with arguments Namespace(N50=True, alength=False, bam=None, barcoded=False, color='#4CB391', cram=None, downsample=None, dpi=100, drop_outliers=False, fasta=None, fastq=None, fastq_minimal=None, fastq_rich=None, font_scale=1, format='png', listcolors=False, loglength=True, maxlength=None, minlength=None, minqual=None, no_N50=False, outdir='summary-plots-log-transformed', percentqual=False, pickle=None, plots=['kde', 'dot'], prefix='', raw=False, readtype='1D', runtime_until=None, store=False, summary=['/projects/EBP/CBC/pyxicephalus/data/JMalone-liver/18JUL19_JM_Liver_run2/18JUL19_JM_Liver_run2_1539_PAD78810_LSK109/20190718_1922_2-E9-H9_PAD78810_c04bdee4//PCT0100_20190718_192233_PAD78810_promethion_sequencing_run_18JUL19_JM_Liver_run2_1539_PAD78810_LSK109_sequencing_summary.txt'], threads=10, title='18JUL_1539_liver', verbose=False)
+2021-01-25 18:01:43,362 Python version is: 3.6.3 (default, Dec 13 2017, 15:54:14)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+2021-01-25 18:01:43,362 Nanoplotter: valid output format png
+2021-01-25 18:01:43,381 Nanoget: Collecting metrics from summary file /projects/EBP/CBC/pyxicephalus/data/JMalone-liver/18JUL19_JM_Liver_run2/18JUL19_JM_Liver_run2_1539_PAD78810_LSK109/20190718_1922_2-E9-H9_PAD78810_c04bdee4//PCT0100_20190718_192233_PAD78810_promethion_sequencing_run_18JUL19_JM_Liver_run2_1539_PAD78810_LSK109_sequencing_summary.txt for 1D sequencing
+2021-01-25 18:02:50,771 Nanoget: Finished collecting statistics from summary file /projects/EBP/CBC/pyxicephalus/data/JMalone-liver/18JUL19_JM_Liver_run2/18JUL19_JM_Liver_run2_1539_PAD78810_LSK109/20190718_1922_2-E9-H9_PAD78810_c04bdee4//PCT0100_20190718_192233_PAD78810_promethion_sequencing_run_18JUL19_JM_Liver_run2_1539_PAD78810_LSK109_sequencing_summary.txt
+2021-01-25 18:03:46,935 Reduced DataFrame memory usage from 2950.340810775757Mb to 1487.566964149475Mb
+2021-01-25 18:04:09,507 Nanoget: Gathered all metrics of 12998557 reads
+2021-01-25 18:04:36,981 Calculated statistics
+2021-01-25 18:04:36,984 Using sequenced read lengths for plotting.
+2021-01-25 18:04:37,837 Using log10 scaled read lengths.
+2021-01-25 18:04:40,803 Nanoplotter: Valid color #4CB391.
+2021-01-25 18:04:43,535 Nanoplotter: Creating length plots for Read length.
+2021-01-25 18:04:43,634 Nanoplotter: Using 12998557 reads with read length N50 of 11289bp and maximum of 982895bp.
+2021-01-25 18:09:11,164 Created length plots
+2021-01-25 18:09:15,402 Nanoplotter: Creating Read lengths vs Average read quality plots using statistics from 12998557 reads.

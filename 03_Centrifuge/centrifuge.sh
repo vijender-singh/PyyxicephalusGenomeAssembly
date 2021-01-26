@@ -29,11 +29,13 @@ data_dir=${DATADIR[$SLURM_ARRAY_TASK_ID]}
 
 mkdir -p /projects/EBP/CBC/pyxicephalus/Analysis/AnalysisDataOutputDir/03_Centrifuge/${sample}/{fastq_out,centrifuge_out}
 
+echo "Sample under processing "${sample}
+
 cd ${data_dir}
 
 lst=*.fastq
 
-FILENAME=`echo $lst | awk -v OFS="," '$1=$1'`
+cat ${lst} >> ${sample}_merged_single.fastq
 
 centifugeOutDir=/projects/EBP/CBC/pyxicephalus/Analysis/AnalysisDataOutputDir/03_Centrifuge/${sample}/centrifuge_out
 fastq_out=/projects/EBP/CBC/pyxicephalus/Analysis/AnalysisDataOutputDir/03_Centrifuge/${sample}/fastq_out
@@ -50,7 +52,7 @@ centrifuge \
 	--quiet --mm \
 	--min-hitlen 50 \
 	--un ${fastq_out} \
-	-U ${FILENAME} -S ${centifugeOutDir}/${sample}_classification.txt
+	-U ${sample}_merged_single.fastq -S ${centifugeOutDir}/${sample}_classification.txt
 
 date
 
