@@ -1,0 +1,17 @@
+2021-01-26 19:17:48,628 NanoPlot 1.21.0 started with arguments Namespace(N50=True, alength=False, bam=None, barcoded=False, color='#4CB391', cram=None, downsample=None, dpi=100, drop_outliers=False, fasta=None, fastq=['/projects/EBP/CBC/pyxicephalus/Analysis/AnalysisDataOutputDir/04_NanoFilt/18JUL_1539_liver_filteredReads.fastq'], fastq_minimal=None, fastq_rich=None, font_scale=1, format='png', listcolors=False, loglength=True, maxlength=None, minlength=None, minqual=None, no_N50=False, outdir='summary-plots-log-transformed', percentqual=False, pickle=None, plots=['kde', 'dot'], prefix='', raw=False, readtype='1D', runtime_until=None, store=False, summary=None, threads=10, title='18JUL_1539_liver', verbose=False)
+2021-01-26 19:17:48,628 Python version is: 3.6.3 (default, Dec 13 2017, 15:54:14)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+2021-01-26 19:17:48,634 Nanoplotter: valid output format png
+2021-01-26 19:17:48,655 Nanoget: Starting to collect statistics from plain fastq file.
+2021-01-26 20:50:30,338 Reduced DataFrame memory usage from 105.39301300048828Mb to 70.26200866699219Mb
+2021-01-26 20:50:30,769 Nanoget: Gathered all metrics of 4604691 reads
+2021-01-26 20:50:33,817 Calculated statistics
+2021-01-26 20:50:33,819 Using sequenced read lengths for plotting.
+2021-01-26 20:50:34,048 Using log10 scaled read lengths.
+2021-01-26 20:50:34,286 Nanoplotter: Valid color #4CB391.
+2021-01-26 20:50:34,837 Nanoplotter: Creating length plots for Read length.
+2021-01-26 20:50:34,854 Nanoplotter: Using 4604691 reads with read length N50 of 10674bp and maximum of 100528bp.
+2021-01-26 20:51:21,494 Created length plots
+2021-01-26 20:51:21,861 Nanoplotter: Creating Read lengths vs Average read quality plots using statistics from 4604691 reads.
+2021-01-26 20:52:08,035 Created LengthvsQual plot
+2021-01-26 20:52:08,036 Writing html report.
+2021-01-26 20:53:16,260 Finished!
